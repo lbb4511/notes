@@ -1,0 +1,4 @@
+- [笔记](notes/)
+  - [Python3 基础语法](notes/basic1.md)
+  - [Python3 运算符](notes/basic2.md)
+- [博客](blog/)

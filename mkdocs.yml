@@ -32,16 +32,13 @@ theme:
 plugins:
   - search:
       lang: zh
-  - tags:
-      tags_file: tags.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/lbb4511
-  analytics:
-    provider: google
-    property: UA-XXXXXXXX-X
+
+copyright: Copyright &copy; 2024 lbb4511 | 使用 Material for MkDocs 构建
 
 nav:
   - 首页: index.md
@@ -66,5 +63,8 @@ nav:
     - 生态概览: ecosystem/index.md
   - 🎯 实践案例:
     - 实践概览: practices/index.md
+  - 💻 代码示例:
+    - Python示例: python/projects/
+    - Lua示例: lua/projects/
 
 copyright: Copyright &copy; 2024 lbb4511 | 使用 Material for MkDocs 构建
