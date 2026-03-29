@@ -1,7 +1,7 @@
-site_name: lbb4511 技术笔记
+site_name: lbb4511 技术知识图谱
 site_url: https://notes.lbb4511.top
 site_author: lbb4511
-site_description: 个人技术学习笔记汇总
+site_description: 个人技术学习知识图谱 - 从入门到精通的学习路径
 
 theme:
   name: material
@@ -23,32 +23,48 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.top
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.tabs.link
 
 plugins:
   - search:
       lang: zh
-
-nav:
-  - 首页: index.md
-  - Go语言:
-    - Go笔记: go/README.md
-  - Python:
-    - Python笔记: python/README.md
-  - Lua:
-    - Lua笔记: lua/README.md
-  - Linux:
-    - Linux笔记: linux/README.md
-  - Spring Boot:
-    - Spring Boot笔记: spring-boot/README.md
-    - 中文文档: spring-boot/README_zh.md
-  - Spring Cloud:
-    - Spring Cloud笔记: spring-cloud/README.md
+  - tags:
+      tags_file: tags.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/lbb4511
+  analytics:
+    provider: google
+    property: UA-XXXXXXXX-X
 
-copyright: Copyright &copy; 2024 lbb4511
+nav:
+  - 首页: index.md
+  - 🗺️ 知识图谱:
+    - 图谱概览: knowledge-graph.md
+    - 技术关联: tech-map.md
+    - 标签索引: tags.md
+  - 📚 基础知识:
+    - 基础概览: basics/index.md
+    - 编程语言:
+      - Go语言: go/README.md
+      - Python: python/README.md
+      - Lua脚本: lua/README.md
+    - 操作系统:
+      - Linux基础: linux/README.md
+  - 🚀 进阶技术:
+    - 进阶概览: advanced/index.md
+    - 微服务架构:
+      - Spring Boot: spring-boot/README.md
+      - Spring Cloud: spring-cloud/README.md
+  - 🌐 生态系统:
+    - 生态概览: ecosystem/index.md
+  - 🎯 实践案例:
+    - 实践概览: practices/index.md
+
+copyright: Copyright &copy; 2024 lbb4511 | 使用 Material for MkDocs 构建
