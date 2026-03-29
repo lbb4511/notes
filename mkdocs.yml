@@ -1,0 +1,49 @@
+site_name: lbb4511 技术笔记
+site_url: https://notes.lbb4511.top
+site_author: lbb4511
+site_description: 个人技术学习笔记
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search:
+      lang: zh
+
+nav:
+  - 首页: index.md
+  - Go语言:
+    - Go笔记: go/README.md
+  - Python:
+    - Python笔记: python/README.md
+  - Lua:
+    - Lua笔记: lua/README.md
+  - Linux:
+    - Linux笔记: linux/README.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lbb4511
+
+copyright: Copyright &copy; 2024 lbb4511
