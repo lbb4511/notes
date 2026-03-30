@@ -1,5 +1,5 @@
 site_name: lbb4511 技术知识图谱
-site_url: https://notes.lbb4511.top
+site_url: https://notes.4511.top
 site_author: lbb4511
 site_description: 个人技术学习知识图谱 - 从入门到精通的学习路径
 
@@ -66,5 +66,8 @@ nav:
   - 💻 代码示例:
     - Python示例: python/projects/
     - Lua示例: lua/projects/
+  - 📜 历史收藏:
+    - 历史概览: history/README.md
+    - 历史传说: history/legend/
 
 copyright: Copyright &copy; 2024 lbb4511 | 使用 Material for MkDocs 构建
